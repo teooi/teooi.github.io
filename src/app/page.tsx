@@ -8,7 +8,7 @@ export default function Home() {
 
       {/* About Section */}
       <section className="about-me">
-        <img src="./images/about.png" alt="About" />
+        <img src="/images/about.png" alt="About" />
         <div className="text">
           <h1>Teo Imoto-Tar | 井本タール テオ</h1>
 
@@ -30,7 +30,7 @@ export default function Home() {
           <div className="links-container mt-4">
             <a href="mailto:timototar@ucsd.edu" className="mr-4">timototar@ucsd.edu</a>
             <a href="https://github.com/teooi" className="mr-4">
-              <img src="./images/github-logo.png" alt="GitHub" className="github-logo" />
+              <img src="/images/github-logo.png" alt="GitHub" className="github-logo" />
             </a>
             <a 
               href="https://drive.google.com/file/d/1oa957KSkcGjFXfWi7Er9jHnOLo-MQpPl/view" 
@@ -51,7 +51,7 @@ export default function Home() {
         <ProjectCard  
           title="BRAID: Brain Representation to Artificial Image via Diffusion"
           description="A cross-modal fMRI-to-image reconstruction model that generates images from brain activity using a diffusion-based generative pipeline."
-          image="./images/braid2.png" 
+          image="/images/braid2.png" 
           links={[
             { label: "code", url: "https://github.com/teooi/BRAID" },
             { label: "pdf", url: "https://drive.google.com/file/d/1j9X0CCV02v-jsGaxnceoX1eZoIzQR_OL/view?usp=sharing" }, 
@@ -63,7 +63,7 @@ export default function Home() {
         {/* <ProjectCard  
           title="Capyvision: AI Generated Image Detection Model"
           description="Fine tuned SigLip2 model capable of detecting images from state of the art generation models."
-          image="./images/shh machine learning.png" 
+          image="/images/shh machine learning.png" 
           links={[
           ]}
         /> */}
@@ -85,7 +85,7 @@ export default function Home() {
               — an anonymous, university-only compliments platform with over 25,000 users. Below is a demo of our approach.
             </>
           }
-          image="./images/recommend_plot4.png"
+          image="/images/recommend_plot4.png"
           links={[
             { label: "code", url: "https://colab.research.google.com/drive/1u8YWpkzm4wPidnpswnSAYh4k8OkJRjZP?usp=sharing" },
           ]}
