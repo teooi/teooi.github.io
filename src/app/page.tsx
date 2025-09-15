@@ -5,7 +5,7 @@ import ProjectCard from '@/components/ProjectCard';
 export default function Home() {
   return (
     <main>
-      
+
       {/* About Section */}
       <section className="about-me">
         <img src="./images/about.png" alt="About" />
@@ -98,7 +98,7 @@ export default function Home() {
           <span className="event-text">
             TritonWare Spring 25: <em>Moosties</em> — puzzle + story-driven game
           </span>
-          <a href="https://itch.io/" target="_blank">itch</a>
+          <a href="https://bmen.itch.io/mootsies" target="_blank">itch</a>
         </div>
 
         <div className="event">
@@ -112,7 +112,7 @@ export default function Home() {
           <span className="event-text">
             TritonWare Fall 24: <em>Last Hours</em> — visual novel mystery game jam
           </span>
-          <a href="https://itch.io/" target="_blank">itch</a>
+          <a href="https://teooi.itch.io/last-hours" target="_blank">itch</a>
         </div>
       </section>
     </main>
