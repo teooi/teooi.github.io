@@ -51,13 +51,22 @@ export default function Home() {
         <ProjectCard  
           title="BRAID: Brain Representation to Artificial Image via Diffusion"
           description="A cross-modal fMRI-to-image reconstruction model that generates images from brain activity using a diffusion-based generative pipeline."
-          image="./images/braid8.png" 
+          image="./images/braid2.png" 
           links={[
             { label: "code", url: "https://github.com/teooi/BRAID" },
             { label: "pdf", url: "https://drive.google.com/file/d/1j9X0CCV02v-jsGaxnceoX1eZoIzQR_OL/view?usp=sharing" }, 
             { label: "slides", url: "https://docs.google.com/presentation/d/1gK8oJHUyC_aO2nXObkM5E8THjC53bpPpzPhe3K_50CI/edit?usp=sharing" },
           ]}
         />
+
+        {/* Capyvision Project */}
+        {/* <ProjectCard  
+          title="Capyvision: AI Generated Image Detection Model"
+          description="Fine tuned SigLip2 model capable of detecting images from state of the art generation models."
+          image="./images/shh machine learning.png" 
+          links={[
+          ]}
+        /> */}
 
         {/* User Recommendation Project */}
         <ProjectCard
@@ -73,10 +82,10 @@ export default function Home() {
               >
                 Murmur Platforms Inc.
               </a>{" "}
-              — an anonymous, university-only compliments platform with over 24,000 users. Below is a demo of our approach.
+              — an anonymous, university-only compliments platform with over 25,000 users. Below is a demo of our approach.
             </>
           }
-          image="./images/recommend_plot3.png"
+          image="./images/recommend_plot4.png"
           links={[
             { label: "code", url: "https://colab.research.google.com/drive/1u8YWpkzm4wPidnpswnSAYh4k8OkJRjZP?usp=sharing" },
           ]}
@@ -100,12 +109,19 @@ export default function Home() {
           </span>
           <a href="https://bmen.itch.io/mootsies" target="_blank">itch</a>
         </div>
-
+        
         <div className="event">
           <span className="event-text">
             DataHacks25 Project: Embedding Pokémon OSTs into the Real World
           </span>
           <a href="https://github.com/BenM2405/DataHacks25-Project" target="_blank">code</a>
+        </div>
+
+        <div className="event">
+          <span className="event-text">
+            Convex & Non-Convex Optimization Algorithms Notebook
+          </span>
+          <a href="https://github.com/teooi/optimization-algorithms" target="_blank">code</a>
         </div>
 
         <div className="event">

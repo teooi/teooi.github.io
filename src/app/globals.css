@@ -97,8 +97,8 @@ header img {
 
 .projects {
   max-width: 850px;
-  margin: 0px 200px 40px;   /* center the section */
-  padding: 0 20px;       /* consistent side padding */
+  margin: 0px 200px 40px;   
+  padding: 0 20px;      
 }
 
 .projects-title {
@@ -111,8 +111,8 @@ header img {
   display: flex;
   align-items: flex-start;   
   margin: 20px 0;
-  padding: 20px 0;           /* vertical spacing */
-  gap: 30px;                 /* space between image and text */
+  padding: 20px 0;           
+  gap: 30px;                
 }
 
 .project-text {
@@ -133,10 +133,10 @@ header img {
 
 .project img,
 .project-gif {
-  width: 190px;
+  width: 180px;
   height: 150px;
   object-fit: cover;         
-  /* border: 1px solid #000; */
+  /* border: 2px solid #09025c; */
   border-radius: 2px;
 }
 
