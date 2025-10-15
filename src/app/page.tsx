@@ -56,11 +56,12 @@ export default function Home() {
             { label: "code", url: "https://github.com/teooi/BRAID" },
             { label: "pdf", url: "https://drive.google.com/file/d/1j9X0CCV02v-jsGaxnceoX1eZoIzQR_OL/view?usp=sharing" }, 
             { label: "slides", url: "https://docs.google.com/presentation/d/1gK8oJHUyC_aO2nXObkM5E8THjC53bpPpzPhe3K_50CI/edit?usp=sharing" },
+            { label: "poster", url: "https://drive.google.com/file/d/1LunN7wZgO2sPuYu5FroYYU1PimrU-QlF/view?usp=sharing" },
           ]}
         />
 
         {/* Capyvision Project */}
-        {/* <ProjectCard  
+        {/* <ProjectCard    ``` `
           title="Capyvision: AI Generated Image Detection Model"
           description="Fine tuned SigLip2 model capable of detecting images from state of the art generation models."
           image="/images/shh machine learning.png" 
