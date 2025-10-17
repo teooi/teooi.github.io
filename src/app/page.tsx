@@ -13,18 +13,36 @@ export default function Home() {
           <h1>Teo Imoto-Tar | 井本タール テオ</h1>
 
           <p>
-            Hi! I’m an undergraduate student pursuing Computer Science and Mathematics at UC San Diego and a member of the{" "}
-            <a 
-              href="https://neuroelectronics.ucsd.edu/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            Hi! I’m an undergraduate student pursuing Computer Science and Mathematics at{" "}
+            <a
+              href="https://ucsd.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline"
+            >
+              UC San Diego
+            </a>{" "}
+            and I work as a research assistant at{" "}
+            <a
+              href="https://neuroelectronics.ucsd.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
               Kuzum Lab
-            </a>. I am interested in software engineering
-            and AI research, with a focus on computer vision, neuroscience, 
-            and data analysis. I’ve worked on projects ranging from robotics and game jams to fMRI-to-image generation. Outside of research, 
-            I make music and really like capybaras. {">:)"}
+            </a>{" "}
+            in the{" "}
+            <a
+              href="https://jacobsschool.ucsd.edu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline"
+            >
+              Jacobs School of Engineering
+            </a>.
+            <br /> <br /> 
+            I am interested in software engineering and AI research, with a focus on computer vision and computational neuroscience. I’ve worked on projects ranging from robotics and game jams to
+            fMRI-to-image generation. Outside of research, I make music and really like capybaras. {">:)"}
           </p>
 
           <div className="links-container mt-4">
@@ -50,22 +68,29 @@ export default function Home() {
         {/* BRAID Project */}
         <ProjectCard  
           title="BRAID: Brain Representation to Artificial Image via Diffusion"
-          description="A cross-modal fMRI-to-image reconstruction model that generates images from brain activity using a diffusion-based generative pipeline."
+          description= {
+            <>
+              A cross-modal fMRI-to-image reconstruction model that generates images from brain activity using a diffusion-based generative pipeline.
+              <br /> <br />
+              <i>San Diego Undergraduate Tech Conference (SDUTC), 2025.</i>
+            </>
+          }
           image="/images/braid2.png" 
           links={[
             { label: "code", url: "https://github.com/teooi/BRAID" },
             { label: "pdf", url: "https://drive.google.com/file/d/1j9X0CCV02v-jsGaxnceoX1eZoIzQR_OL/view?usp=sharing" }, 
-            { label: "slides", url: "https://docs.google.com/presentation/d/1gK8oJHUyC_aO2nXObkM5E8THjC53bpPpzPhe3K_50CI/edit?usp=sharing" },
+            // { label: "slides", url: "https://docs.google.com/presentation/d/1gK8oJHUyC_aO2nXObkM5E8THjC53bpPpzPhe3K_50CI/edit?usp=sharing" },
             { label: "poster", url: "https://drive.google.com/file/d/1LunN7wZgO2sPuYu5FroYYU1PimrU-QlF/view?usp=sharing" },
           ]}
         />
 
         {/* Capyvision Project */}
-        {/* <ProjectCard    ``` `
-          title="Capyvision: AI Generated Image Detection Model"
-          description="Fine tuned SigLip2 model capable of detecting images from state of the art generation models."
+        {/* <ProjectCard    
+          title="CapyVision: Detecting Images from Generative Models"
+          description="Fine-tuned EfficientNet model capable of detecting images from generative models. Currently, work in progress."
           image="/images/shh machine learning.png" 
           links={[
+            { label: "website", url: "https://capyvision-web.vercel.app/" },
           ]}
         /> */}
 
@@ -83,7 +108,7 @@ export default function Home() {
               >
                 Murmur Platforms Inc.
               </a>{" "}
-              — an anonymous, university-only compliments platform with over 25,000 users. Below is a demo of our approach.
+              - an anonymous, university-only compliments platform with over 30,000 users. Below is a demo of our approach.
             </>
           }
           image="/images/recommend_plot4.png"

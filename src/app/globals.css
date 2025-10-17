@@ -93,13 +93,16 @@ header img {
     font-size: 0.95em;
 }
 
-/* ========== PROJECTS ========== */
+/* = PROJECTS and EVENTS center = */
 
-.projects {
+.projects,
+.events {
   max-width: 850px;
-  margin: 0px 200px 40px;   
-  padding: 0 20px;      
+  margin: 0 auto 40px; 
+  padding: 0 20px;    
 }
+
+/* ========== PROJECTS ========== */
 
 .projects-title {
   font-size: 1.25em;
@@ -133,7 +136,7 @@ header img {
 
 .project img,
 .project-gif {
-  width: 180px;
+  width: 200px;
   height: 150px;
   object-fit: cover;         
   /* border: 2px solid #09025c; */
@@ -149,11 +152,11 @@ header img {
 
 /* ========== EVENTS (COMPACT) ========== */
 
-.events {
+/* .events {
   max-width: 850px;
   margin: 40px 200px;
   padding: 0 20px;
-}
+} */
 
 .events-title {
   font-size: 1.25em;
