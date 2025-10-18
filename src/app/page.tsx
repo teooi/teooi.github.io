@@ -131,7 +131,7 @@ export default function Home() {
 
         <div className="event">
           <span className="event-text">
-            TritonWare Spring 25: <em>Moosties</em> — puzzle + story-driven game
+            TritonWare Spring 25: <em>Mootsies</em> — puzzle + story-driven game
           </span>
           <a href="https://bmen.itch.io/mootsies" target="_blank">itch</a>
         </div>
