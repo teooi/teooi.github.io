@@ -29,7 +29,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
-              Kuzum Lab
+              Neuroelectronics Lab
             </a>{" "}
             in the{" "}
             <a

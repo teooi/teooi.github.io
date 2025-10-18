@@ -97,7 +97,7 @@ header img {
 
 .projects,
 .events {
-  max-width: 850px;
+  max-width: 750px;
   margin: 0 auto 40px; 
   padding: 0 20px;    
 }
@@ -111,6 +111,7 @@ header img {
 }
 
 .project {
+  justify-content: center; 
   display: flex;
   align-items: flex-start;   
   margin: 20px 0;
