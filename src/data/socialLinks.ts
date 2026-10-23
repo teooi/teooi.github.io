@@ -15,7 +15,7 @@ export const socialLinks: SocialLink[] = [
     icon: "/images/github-logo.png",
   },
   {
-    label: "Resume",
-    url: "https://drive.google.com/file/d/1oa957KSkcGjFXfWi7Er9jHnOLo-MQpPl/view",
+    label: "CV",
+    url: "https://drive.google.com/file/d/1Rd-rzM0iiEYyrh-PNuChbbMX3nMb9_Tl/view?usp=sharing",
   },
 ];

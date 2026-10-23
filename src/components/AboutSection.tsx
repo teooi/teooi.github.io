@@ -10,8 +10,7 @@ export default function AboutSection() {
         <h1>Teo Imoto-Tar | 井本タール テオ</h1>
 
         <p>
-          Hi! I'm an undergraduate student pursuing Computer Science and
-          Mathematics at{" "}
+          Hi! I'm a Math and CS undergrad at{" "}
           <a
             href="https://ucsd.edu/"
             target="_blank"
@@ -19,32 +18,67 @@ export default function AboutSection() {
             className="text-blue-500 hover:underline"
           >
             UC San Diego
-          </a>{" "}
-          and I work as a research assistant at{" "}
-          <a
-            href="https://neuroelectronics.ucsd.edu/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            Neuroelectronics Lab
-          </a>{" "}
-          in the{" "}
-          <a
-            href="https://jacobsschool.ucsd.edu/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            Jacobs School of Engineering
           </a>
-          .
+          . I work on brain decoding and vision in the{" "}
+          <a
+            href="https://serenceslab.ucsd.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Serences Lab
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.mikioaoi.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Aoi Lab
+          </a>{" "}
+          with Yixin Yuan and{" "}
+          <a
+            href="https://www.luisdramirez.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Luis D. Ramirez
+          </a>
+          , and on Bayesian ML for perovskite solar cells in the{" "}
+          <a
+            href="https://fenningresearchgroup.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Fenning Research Group
+          </a>{" "}
+          with Eric Oberholtz.
           <br /> <br />
-          I am interested in software engineering and AI research, with a focus
-          on computer vision and computational neuroscience. I've worked on
-          projects ranging from robotics and game jams to fMRI-to-image
-          generation. Outside of research, I make music and really like
-          capybaras. {">:)"}
+          I'm interested in AI research and computational neuroscience,
+          especially Bayesian models of visual representation. I recently spent a
+          semester at{" "}
+          <a
+            href="https://www.kyoto-u.ac.jp/en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Kyoto University
+          </a>{" "}
+          in Prof. F. Ueda's algebra seminar at{" "}
+          <a
+            href="https://www.kurims.kyoto-u.ac.jp/en/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            RIMS
+          </a>
+          . Outside of research, I make music and really like capybaras.{" "}
+          {">:)"}
         </p>
 
         <div className="links-container mt-4">

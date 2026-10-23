@@ -14,6 +14,30 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "CortexDecoder: fMRI-to-Image Reconstruction from Cortical Flatmaps",
+    description: (
+      <>
+        An fMRI-to-image reconstruction framework that decodes 2D cortical
+        flatmaps with a vision transformer, mapping brain activity to semantic
+        and low-level image features that guide a diffusion model.
+        <br /> <br />
+        <i>T. Imoto-Tar, M. Fung, A. Gurha. bioRxiv, 2026.</i>
+      </>
+    ),
+    image: "/images/cortexdecoder.png",
+    links: [
+      { label: "code", url: "https://github.com/teooi/CortexDecoder" },
+      {
+        label: "bioRxiv",
+        url: "https://doi.org/10.64898/2026.10.09.757766",
+      },
+      {
+        label: "poster",
+        url: "https://drive.google.com/file/d/1fbCDnrquN5EzsVc_aAajWg3u6BkfitwK/view?usp=sharing",
+      },
+    ],
+  },
+  {
     title: "BRAID: Brain Representation to Artificial Image via Diffusion",
     description: (
       <>
