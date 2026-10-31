@@ -19,7 +19,7 @@ export default function AboutSection() {
           >
             UC San Diego
           </a>
-          . I work on brain decoding and vision in the{" "}
+          . I work on fMRI decoding in the{" "}
           <a
             href="https://serenceslab.ucsd.edu/"
             target="_blank"
@@ -46,7 +46,7 @@ export default function AboutSection() {
           >
             Luis D. Ramirez
           </a>
-          , and on Bayesian ML for perovskite solar cells in the{" "}
+          , and on ML for perovskite solar cells in the{" "}
           <a
             href="https://fenningresearchgroup.com/"
             target="_blank"
@@ -57,9 +57,9 @@ export default function AboutSection() {
           </a>{" "}
           with Eric Oberholtz.
           <br /> <br />
-          I'm interested in AI research and computational neuroscience,
-          especially Bayesian models of visual representation. I recently spent a
-          semester at{" "}
+          I'm interested in how the brain can inspire better ML, especially
+          representation learning and probabilistic modeling. I recently spent
+          a semester at{" "}
           <a
             href="https://www.kyoto-u.ac.jp/en"
             target="_blank"
