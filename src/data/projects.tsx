@@ -21,7 +21,7 @@ export const projects: Project[] = [
         flatmaps with a vision transformer, mapping brain activity to semantic
         and low-level image features that guide a diffusion model.
         <br /> <br />
-        <i>T. Imoto-Tar, M. Fung, A. Gurha. bioRxiv, 2026.</i>
+        <i><b>T. Imoto-Tar</b>, M. Fung, A. Gurha. bioRxiv, 2026.</i>
       </>
     ),
     image: "/images/cortexdecoder.png",

@@ -55,10 +55,7 @@ export default function AboutSection() {
           >
             Fenning Research Group
           </a>{" "}
-          with Eric Oberholtz.
-          <br /> <br />
-          I'm interested in how the brain can inspire better ML, especially
-          representation learning and probabilistic modeling. I recently spent
+          with Eric Oberholtz. I recently spent
           a semester at{" "}
           <a
             href="https://www.kyoto-u.ac.jp/en"
@@ -75,9 +72,11 @@ export default function AboutSection() {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
           >
-            RIMS
+          RIMS.
           </a>
-          . Outside of research, I make music and really like capybaras.{" "}
+
+          <br /> <br />
+          I'm interested in how the brain can inspire better ML, particularly through computational neuroscience, representation learning and probabilistic modeling. Outside of research, I make music and really like capybaras.{" "}
           {">:)"}
         </p>
 

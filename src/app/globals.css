@@ -44,7 +44,7 @@ header img {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-    max-width: 720px;
+    max-width: 780px;
     margin: 0 auto 56px;
 }
 
@@ -96,7 +96,7 @@ header img {
 
 .projects,
 .events {
-  max-width: 720px;
+  max-width: 780px;
   margin: 0 auto 48px;
 }
 
